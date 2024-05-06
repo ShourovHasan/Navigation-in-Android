@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupTopManu"
+        >
+        <item
+            android:id="@+id/navHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Home"
+            android:icon="@drawable/icon_home"
+            android:checkable="true"
+            />
+        <item
+            android:id="@+id/navProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Profile"
+            android:icon="@drawable/icon_profile"
+            android:checkable="true"
+            />
+        <item
+            android:id="@+id/navNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Notification"
+            android:icon="@drawable/icon_notification"
+            android:checkable="true"
+            />
+    </group>
+    <group
+        android:id="@+id/settings"
+        >
+        <item
+            android:id="@+id/navSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Settings"
+            android:icon="@drawable/icon_settings"
+            android:checkable="true"
+            />
+    </group>
+</menu>

@@ -17,6 +17,5 @@
         android:title="Share"
         android:icon="@drawable/share"
         app:showAsAction="ifRoom"
-        android:iconTint="@color/white"
         />
 </menu>

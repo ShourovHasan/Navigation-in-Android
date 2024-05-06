@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:openDrawer="start"
+    android:id="@+id/drawerLayout"
+    >
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -17,6 +20,7 @@
             android:background="#3F51B5"
             >
             <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/materialToolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:title="SSC all solutions"
@@ -29,14 +33,24 @@
         <!--        toolbar End-->
 
         <FrameLayout
+            android:id="@+id/frameLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="?attr/actionBarSize"
             />
-
-
-
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--    ======================================-->
+      <com.google.android.material.navigation.NavigationView
+          android:id="@+id/navigationView"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_gravity="start"
+          app:headerLayout="@layout/nav_header"
+          app:menu="@menu/nav_items"
+          />
+
+
+
+<!--    ======================================-->
 
 </androidx.drawerlayout.widget.DrawerLayout>
