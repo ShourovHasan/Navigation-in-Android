@@ -9,7 +9,7 @@
     >
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/imageView"
+        android:id="@+id/headerImg"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/boy"
@@ -19,14 +19,14 @@
 
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/headerName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Shourov Hasan"
-        android:textSize="20sp" />
+        android:text="Share Market App"
+        android:textSize="26sp" />
 
     <TextView
-        android:id="@+id/tvEmail"
+        android:id="@+id/headerEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="shourovhasan91@gmail.com"

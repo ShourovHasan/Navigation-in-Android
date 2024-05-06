@@ -5,18 +5,18 @@
         android:id="@+id/groupTopManu"
         >
         <item
-            android:id="@+id/navHome"
+            android:id="@+id/dse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:title="Home"
+            android:title="DSE"
             android:icon="@drawable/icon_home"
             android:checkable="true"
             />
         <item
-            android:id="@+id/navProfile"
+            android:id="@+id/cse"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:title="Profile"
+            android:title="CSE"
             android:icon="@drawable/icon_profile"
             android:checkable="true"
             />
